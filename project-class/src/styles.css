@@ -7,6 +7,15 @@
     --color2: #000000;
     --color3: #ff0000;
     --color4: #b2b2b2;
+    --colores-filas: #0f7fe9;
+    --colores-general: #2f04f0;
+    --ancho-div-general: 300px;
+    --margen--div-general: auto;
+    --color-div-secundario: #83e207;
+    --ancho-div-sec: 200px;
+    --margen--div-sec: auto;
+    --alinear-div-general: left;
+    --alinear-div-sec: right;
 
 }
 
@@ -27,5 +36,32 @@ td{
 
 background-color: var(--color4);
 color: var(--color3);
+
+}
+
+.General{
+background-color: var(--colores-general);
+width: var(--ancho-div-general);
+margin: var(--margen--div-general);
+float: var(--alinear-div-general);
+
+
+}
+
+.subitem{
+
+    background-color: var(--color-div-secundario);
+    width: var(--ancho-div-sec);
+    margin: var(--margen--div-sec);
+    float: var(--alinear-div-general);
+
+}
+
+.subitem2{
+
+    background-color: var(--color-div-secundario);
+    width: var(--ancho-div-sec);
+    margin: var(--margen--div-sec);
+    float: var(--alinear-div-sec);
 
 }
