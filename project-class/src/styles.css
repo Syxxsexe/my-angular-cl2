@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+
+    --variableParrafo: 2rem;
+    --color1: #ff43af;
+    --color2: #000000;
+    --color3: #ff0000;
+    --color4: #b2b2b2;
+
+}
+
+p{
+
+color: var(--color1);
+font-size: var(--variableParrafo);
+
+}
+tr{
+
+background-color: var(--color2);
+color: var(--color3);
+
+}
+
+td{
+
+background-color: var(--color4);
+color: var(--color3);
+
+}
